@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- <div class="nav-taps">
+    <div class="container p-5">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12">
+                <div class="py-5">
+                  <img src="images/1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="">
+    <div class="container border-bottom border-danger pb-3">
+      <h3 class=" mt-3 mb-5 text-center text-bg-danger p-2 rounded-1 font-weight-bolder">Add Products</h3>
+      <input id="fn" type="text" class="form-control mb-3" placeholder="Name">
+      <input id="qun" type="text" class="form-control mb-3" placeholder="Quntity">
+      <input id="pr" type="text" class="form-control mb-3" placeholder="Price">
+      <textarea  id="des"class="form-control mb-3" placeholder="Description"></textarea>
+      <button onclick="add();" class="btn btn-danger mt-3">Add</button>
+
+    </div>
+    <div class="container py-4">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Quntity</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Delete</th>
+            <th>Update</th>
+          </tr>
+
+        </thead>
+        <tbody id="f1">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
